@@ -2,7 +2,7 @@
 	"name": "daffodil-main",
 	"displayName": "Daffodil Main",
 	"description": "Core Astro-centered frontend development extensions.",
-	"version": "0.9.1",
+	"version": "0.9.2",
 	"publisher": "guideblade",
 	"icon": "assets/icon.png",
 	"repository": {
@@ -31,7 +31,6 @@
 	"extensionPack": [
 		"astro-build.astro-vscode",
 		"esbenp.prettier-vscode",
-		"formulahendry.auto-rename-tag",
 		"vitest.explorer",
 		"wayou.vscode-todo-highlight",
 		"mikestead.dotenv",

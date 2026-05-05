@@ -4,7 +4,6 @@ Markup editing extensions for Astro-centered frontend development in VS Code.
 
 ## Included Extensions
 
-- Auto Rename Tag
 - Trailing Spaces
 - Highlight Matching Tag
 - htmltagwrap

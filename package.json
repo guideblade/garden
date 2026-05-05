@@ -1,7 +1,7 @@
 {
 	"name": "garden",
 	"private": true,
-	"version": "0.9.1",
+	"version": "0.9.2",
 	"description": "Curated VS Code extension packs.",
 	"workspaces": [
 		"packs/*",

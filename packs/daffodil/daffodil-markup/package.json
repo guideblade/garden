@@ -2,7 +2,7 @@
 	"name": "daffodil-markup",
 	"displayName": "Daffodil Markup",
 	"description": "Markup editing extensions for Astro-centered frontend development.",
-	"version": "0.9.1",
+	"version": "0.9.2",
 	"publisher": "guideblade",
 	"icon": "assets/icon.png",
 	"repository": {
@@ -29,7 +29,6 @@
 		"extension pack"
 	],
 	"extensionPack": [
-		"formulahendry.auto-rename-tag",
 		"shardulm94.trailing-spaces",
 		"vincaslt.highlight-matching-tag",
 		"bradgashler.htmltagwrap"
