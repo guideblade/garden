@@ -2,7 +2,7 @@
 	"name": "daffodil-context",
 	"displayName": "Daffodil Context",
 	"description": "Folder context copying extensions for Astro-centered frontend development.",
-	"version": "0.9.0",
+	"version": "0.9.1",
 	"publisher": "guideblade",
 	"icon": "assets/icon.png",
 	"repository": {

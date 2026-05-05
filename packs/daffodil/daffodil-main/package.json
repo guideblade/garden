@@ -2,7 +2,7 @@
 	"name": "daffodil-main",
 	"displayName": "Daffodil Main",
 	"description": "Core Astro-centered frontend development extensions.",
-	"version": "0.9.0",
+	"version": "0.9.1",
 	"publisher": "guideblade",
 	"icon": "assets/icon.png",
 	"repository": {

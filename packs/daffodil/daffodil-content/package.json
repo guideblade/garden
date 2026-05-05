@@ -2,7 +2,7 @@
 	"name": "daffodil-content",
 	"displayName": "Daffodil Content",
 	"description": "Content workflow extensions for Astro-centered frontend development.",
-	"version": "0.9.0",
+	"version": "0.9.1",
 	"publisher": "guideblade",
 	"icon": "assets/icon.png",
 	"repository": {
