@@ -1,0 +1,34 @@
+{
+	"name": "cucumber",
+	"displayName": "Cucumber",
+	"description": "TBA.",
+	"version": "0.0.1",
+	"publisher": "guideblade",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/guideblade/garden.git",
+		"directory": "packs/cucumber"
+	},
+	"engines": {
+		"vscode": "^1.90.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"files": [
+		"package.json",
+		"README.md"
+	],
+	"keywords": [
+		"markdown",
+		"obsidian",
+		"writing",
+		"skills",
+		"extension pack"
+	],
+	"extensionPack": [],
+	"scripts": {
+		"package": "vsce package --no-dependencies --skip-license",
+		"publish": "vsce publish --no-dependencies --skip-license"
+	}
+}

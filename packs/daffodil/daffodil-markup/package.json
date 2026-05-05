@@ -1,0 +1,41 @@
+{
+	"name": "daffodil-markup",
+	"displayName": "Daffodil Markup",
+	"description": "Markup editing extensions for Astro-centered frontend development.",
+	"version": "0.9.0",
+	"publisher": "guideblade",
+	"icon": "assets/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/guideblade/garden.git",
+		"directory": "packs/daffodil/daffodil-markup"
+	},
+	"engines": {
+		"vscode": "^1.90.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"files": [
+		"package.json",
+		"README.md",
+		"assets/icon.png"
+	],
+	"keywords": [
+		"markup",
+		"html",
+		"astro",
+		"frontend",
+		"extension pack"
+	],
+	"extensionPack": [
+		"formulahendry.auto-rename-tag",
+		"shardulm94.trailing-spaces",
+		"vincaslt.highlight-matching-tag",
+		"bradgashler.htmltagwrap"
+	],
+	"scripts": {
+		"package": "vsce package --no-dependencies --skip-license",
+		"publish": "vsce publish --no-dependencies --skip-license"
+	}
+}

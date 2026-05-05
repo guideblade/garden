@@ -1,0 +1,29 @@
+{
+	"name": "garden",
+	"private": true,
+	"version": "0.9.0",
+	"description": "Curated VS Code extension packs.",
+	"workspaces": [
+		"packs/*",
+		"packs/daffodil/*"
+	],
+	"scripts": {
+		"package": "npm run package --workspaces",
+		"package:daffodil": "npm run package --workspace daffodil",
+		"package:daffodil:appearance": "npm run package --workspace daffodil-appearance",
+		"package:daffodil:content": "npm run package --workspace daffodil-content",
+		"package:daffodil:context": "npm run package --workspace daffodil-context",
+		"package:daffodil:main": "npm run package --workspace daffodil-main",
+		"package:daffodil:logic": "npm run package --workspace daffodil-logic",
+		"package:daffodil:markup": "npm run package --workspace daffodil-markup",
+		"package:daffodil:styles": "npm run package --workspace daffodil-styles",
+		"package:gladiola": "npm run package --workspace gladiola",
+		"package:daylily": "npm run package --workspace daylily",
+		"package:cucumber": "npm run package --workspace cucumber",
+		"publish": "npm run publish --workspaces"
+	},
+	"devDependencies": {
+		"@vscode/vsce": "^3.6.3",
+		"prettier": "^3.8.3"
+	}
+}

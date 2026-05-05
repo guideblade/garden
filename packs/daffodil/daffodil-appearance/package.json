@@ -1,0 +1,39 @@
+{
+	"name": "daffodil-appearance",
+	"displayName": "Daffodil Appearance",
+	"description": "Appearance extensions for Astro-centered frontend development.",
+	"version": "0.9.0",
+	"publisher": "guideblade",
+	"icon": "assets/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/guideblade/garden.git",
+		"directory": "packs/daffodil/daffodil-appearance"
+	},
+	"engines": {
+		"vscode": "^1.90.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"files": [
+		"package.json",
+		"README.md",
+		"assets/icon.png"
+	],
+	"keywords": [
+		"icons",
+		"appearance",
+		"peacock",
+		"frontend",
+		"extension pack"
+	],
+	"extensionPack": [
+		"davidbabel.antigravity-icons-supercharged-blue",
+		"johnpapa.vscode-peacock"
+	],
+	"scripts": {
+		"package": "vsce package --no-dependencies --skip-license",
+		"publish": "vsce publish --no-dependencies --skip-license"
+	}
+}

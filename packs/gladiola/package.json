@@ -1,0 +1,34 @@
+{
+	"name": "gladiola",
+	"displayName": "Gladiola",
+	"description": "TBA.",
+	"version": "0.0.1",
+	"publisher": "guideblade",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/guideblade/garden.git",
+		"directory": "packs/gladiola"
+	},
+	"engines": {
+		"vscode": "^1.90.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"files": [
+		"package.json",
+		"README.md"
+	],
+	"keywords": [
+		"vue",
+		"frontend",
+		"typescript",
+		"tailwind",
+		"extension pack"
+	],
+	"extensionPack": [],
+	"scripts": {
+		"package": "vsce package --no-dependencies --skip-license",
+		"publish": "vsce publish --no-dependencies --skip-license"
+	}
+}

@@ -1,0 +1,37 @@
+# Ignore everything by default.
+*
+
+# Repository essentials.
+!/.gitignore
+!/.gitattributes
+!/.prettierrc.json
+!/README.md
+!/CONTRIBUTING.md
+!/LICENSE
+!/package.json
+!/package-lock.json
+
+# Extension pack directories.
+!packs/
+!packs/**/
+
+# Extension pack source and docs.
+!packs/**/package.json
+!packs/**/README.md
+
+# Asset files allowed by extension, only inside assets directories.
+!packs/**/assets/
+!packs/**/assets/**/
+!packs/**/assets/**/*.png
+!packs/**/assets/**/*.jpg
+!packs/**/assets/**/*.jpeg
+!packs/**/assets/**/*.webp
+!packs/**/assets/**/*.gif
+!packs/**/assets/**/*.ico
+!packs/**/assets/**/*.avif
+!packs/**/assets/**/*.svg
+!packs/**/assets/**/*.mp4
+!packs/**/assets/**/*.webm
+!packs/**/assets/**/*.mov
+!packs/**/assets/**/*.mp3
+!packs/**/assets/**/*.wav
